@@ -1,0 +1,32 @@
+/* Стилізація кнопки */
+button {
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: pink; /* Рожевий колір */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    /*transition: background-color 0.8s ease;*/
+  }
+  button:hover {
+    background-color: hotpink;
+    box-shadow: 0 0 15px #55595b;
+    transition-duration: 800ms;
+  }
+
+  .box { 
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Стилі для результату (сердечко та напис) */
+  .result {
+    display: none;
+    font-size: 24px;
+    margin-top: 20px;
+    color: red;
+  }
+  
